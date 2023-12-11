@@ -10,3 +10,5 @@ function wait(n) {
 
 const p = wait(6);
 p.then(() => console.log("Promise resolved"));
+
+module.exports = wait;
